@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Datasets (over 20GB combined - downloaded via scripts/download_and_inspect.py)
+dataset/
+dataset_raw/
+
+# Model Checkpoints and Weights
+*.pt
+weights/
+
+# Training and Run Artifacts
+runs/
+outputs/
+
+# Virtual Environments
+venv/
+env/
+.env/
+
+# OS-generated files
+Thumbs.db
+.DS_Store
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
