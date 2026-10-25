@@ -1,0 +1,22 @@
+{
+    "test_precision": 0.9201483215999389,
+    "test_recall": 0.8229970004852699,
+    "test_mAP50": 0.8889621513694518,
+    "test_mAP50_95": 0.6210232319461765,
+    "inference_speed_ms_per_image": {
+        "preprocess": 0.8307756579214535,
+        "inference": 2.378196644770613,
+        "postprocess": 1.4989105262334066,
+        "total": 4.7087330263342375
+    },
+    "gpu_vram_usage_gb": 0.3,
+    "cuda_oom_occurred": false,
+    "plots_location": {
+        "confusion_matrix": "e:/SEM-5/COMPUTER VISION/mini/honey-bee-detection/runs/detect/honey_bee_test_eval/confusion_matrix.png",
+        "pr_curve": "e:/SEM-5/COMPUTER VISION/mini/honey-bee-detection/runs/detect/honey_bee_test_eval/PR_curve.png",
+        "f1_curve": "e:/SEM-5/COMPUTER VISION/mini/honey-bee-detection/runs/detect/honey_bee_test_eval/F1_curve.png",
+        "p_curve": "e:/SEM-5/COMPUTER VISION/mini/honey-bee-detection/runs/detect/honey_bee_test_eval/P_curve.png",
+        "r_curve": "e:/SEM-5/COMPUTER VISION/mini/honey-bee-detection/runs/detect/honey_bee_test_eval/R_curve.png",
+        "visualizations_dir": "e:/SEM-5/COMPUTER VISION/mini/honey-bee-detection/runs/detect/honey_bee_test_eval"
+    }
+}

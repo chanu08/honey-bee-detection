@@ -1,0 +1,44 @@
+{
+    "total_images": 7200,
+    "total_labels": 6658,
+    "image_extensions": [
+        ".jpg"
+    ],
+    "image_dimensions": [
+        "1920x1080"
+    ],
+    "total_bboxes": 54815,
+    "unique_classes": [
+        0
+    ],
+    "all_classes_are_0": true,
+    "normalized_coords_valid": true,
+    "sessions_found": [
+        "_bee_20230609a",
+        "_bee_20230609b",
+        "_bee_20230609c",
+        "_bee_20230609d",
+        "_bee_20230609e",
+        "_bee_20230711a",
+        "_bee_20230711b",
+        "_bee_20230711c"
+    ],
+    "min_bees": 0,
+    "max_bees": 58,
+    "avg_bees": 7.613194444444445,
+    "num_missing_labels": 542,
+    "num_malformed_labels": 0,
+    "missing_labels_sample": [
+        "e:/SEM-5/COMPUTER VISION/mini/honey-bee-detection\\dataset_raw\\Labeled dataset for bee detection and direction estimation on beehive landing boards\\detection\\_bee_20230609a\\images\\20230609a4020.jpg",
+        "e:/SEM-5/COMPUTER VISION/mini/honey-bee-detection\\dataset_raw\\Labeled dataset for bee detection and direction estimation on beehive landing boards\\detection\\_bee_20230609b\\images\\20230609b1692.jpg",
+        "e:/SEM-5/COMPUTER VISION/mini/honey-bee-detection\\dataset_raw\\Labeled dataset for bee detection and direction estimation on beehive landing boards\\detection\\_bee_20230609b\\images\\20230609b1704.jpg",
+        "e:/SEM-5/COMPUTER VISION/mini/honey-bee-detection\\dataset_raw\\Labeled dataset for bee detection and direction estimation on beehive landing boards\\detection\\_bee_20230609b\\images\\20230609b2124.jpg",
+        "e:/SEM-5/COMPUTER VISION/mini/honey-bee-detection\\dataset_raw\\Labeled dataset for bee detection and direction estimation on beehive landing boards\\detection\\_bee_20230609b\\images\\20230609b2130.jpg",
+        "e:/SEM-5/COMPUTER VISION/mini/honey-bee-detection\\dataset_raw\\Labeled dataset for bee detection and direction estimation on beehive landing boards\\detection\\_bee_20230609b\\images\\20230609b2136.jpg",
+        "e:/SEM-5/COMPUTER VISION/mini/honey-bee-detection\\dataset_raw\\Labeled dataset for bee detection and direction estimation on beehive landing boards\\detection\\_bee_20230609b\\images\\20230609b2190.jpg",
+        "e:/SEM-5/COMPUTER VISION/mini/honey-bee-detection\\dataset_raw\\Labeled dataset for bee detection and direction estimation on beehive landing boards\\detection\\_bee_20230609b\\images\\20230609b2196.jpg",
+        "e:/SEM-5/COMPUTER VISION/mini/honey-bee-detection\\dataset_raw\\Labeled dataset for bee detection and direction estimation on beehive landing boards\\detection\\_bee_20230609b\\images\\20230609b2316.jpg",
+        "e:/SEM-5/COMPUTER VISION/mini/honey-bee-detection\\dataset_raw\\Labeled dataset for bee detection and direction estimation on beehive landing boards\\detection\\_bee_20230609b\\images\\20230609b2322.jpg"
+    ],
+    "malformed_labels_sample": []
+}

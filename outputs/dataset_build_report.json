@@ -1,0 +1,36 @@
+{
+    "counts": {
+        "TRAIN": {
+            "images": 4880,
+            "labels": 4880,
+            "empty_labels": 380,
+            "total_bboxes": 40459
+        },
+        "VAL": {
+            "images": 800,
+            "labels": 800,
+            "empty_labels": 13,
+            "total_bboxes": 5213
+        },
+        "TEST": {
+            "images": 1520,
+            "labels": 1520,
+            "empty_labels": 163,
+            "total_bboxes": 9143
+        }
+    },
+    "checks": {
+        "all_images_have_labels": true,
+        "all_labels_valid_yolo": true,
+        "all_class_ids_0": true,
+        "all_coords_normalized": true,
+        "all_dimensions_positive": true,
+        "no_bboxes_outside_image": true,
+        "no_orphaned_labels": true,
+        "no_duplicate_filenames": true
+    },
+    "totals": {
+        "images": 7200,
+        "bboxes": 54815
+    }
+}

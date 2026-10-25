@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files
+# Python Bytecode and Cache
 __pycache__/
 *.py[cod]
 *$py.class
@@ -7,24 +7,33 @@ __pycache__/
 dataset/
 dataset_raw/
 
-# Model Checkpoints and Weights
-*.pt
-weights/
+# Oversized Video Outputs (>100MB limit on GitHub)
+*.mp4
+outputs/*.mp4
 
-# Training and Run Artifacts
-runs/
-outputs/
+# Intermediate and inspection images
+outputs/annotation_check/
+outputs/video_samples/
+outputs/test_eval_results/
+outputs/sample_video_frame.jpg
+
+# Temporary / intermediate runs
+runs/**/train_batch*.jpg
+runs/**/val_batch*.jpg
+runs/**/last.pt
+runs/**/honey_bee_sanity/
+runs/**/honey_bee_test_eval/
+
+# Root weights directory
+/weights/
 
 # Virtual Environments
 venv/
 env/
 .env/
 
-# OS-generated files
+# OS and Editor files
 Thumbs.db
 .DS_Store
-
-# IDE and Editor files
 .vscode/
 .idea/
-*.swp

@@ -1,0 +1,19 @@
+Total frames processed: 3676
+Total video duration (sec): 122.66
+Minimum detected bees/frame: 0
+Maximum detected bees/frame: 11
+Average detected bees/frame: 2.16
+Median detected bees/frame: 2.0
+Standard deviation of bees/frame: 1.82
+Number of frames with zero detections: 582
+Number of frames with at least one detection: 3094
+Average inference time per frame (ms): 17.69
+Model Inference FPS (pure YOLO): 56.52
+Actual end-to-end video processing FPS: 24.49
+Video source FPS: 29.97
+Total end-to-end processing time (sec): 150.11
+Verification: Output video exists: True
+Verification: Output video can be opened: True
+Verification: Frame count consistent: True
+Verification: CSV has one row per frame: True
+CUDA OOM Occurred: False
